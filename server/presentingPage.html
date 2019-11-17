@@ -102,7 +102,7 @@
     </div>
     <script>
       // Please change the ip based on your server address :)
-      const socket = io('192.168.1.3:5000');
+      const socket = io('https://ff0vm.sse.codesandbox.io');
       const phoneElement = document.querySelector('.phone');
 
       socket.on('newOri', ({alpha, beta, gamma}) => {
